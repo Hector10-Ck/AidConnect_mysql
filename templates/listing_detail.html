@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>{{ listing['title'] }}</h2>
+<p>{{ listing['description'] }}</p>
+<p><strong>Provider:</strong> {{ listing['provider'] }}</p>
+<a href="{{ url_for('dashboard') }}" class="btn btn-secondary mt-3">Back to Dashboard</a>
+{% endblock %}

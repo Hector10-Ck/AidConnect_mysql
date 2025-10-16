@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="col-md-5 offset-md-4 mt-5">
+  <h3 class="text-center mb-3">Create Account</h3>
+  <form method="POST">
+    <input class="form-control mb-2" name="name" placeholder="Full name" required>
+    <input class="form-control mb-2" type="email" name="email" placeholder="Email" required>
+    <input class="form-control mb-2" type="password" name="password" placeholder="Password" required>
+    <select class="form-control mb-3" name="role" required>
+      <option value="beneficiary">Beneficiary</option>
+      <option value="provider">Provider (NGO / Donor)</option>
+    </select>
+    <button class="btn btn-success w-100">Register</button>
+  </form>
+</div>
+{% endblock %}
+
