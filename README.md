@@ -52,6 +52,52 @@ pip install -r requirements.txt
 mysql -u root -p < create_tables.sql
 
 # Run the application
+
 flask run
+💡 Features
+
+User registration and authentication (Donors & Beneficiaries)
+
+Role-based dashboards
+
+Aid request creation and management
+
+Donor listing and response
+
+MySQL database integration
+
+Responsive user interface
+
+🧩 Project Structure
+AidConnect_mysql/
+│
+├── app.py                # Main Flask app
+├── config.py             # Configuration settings
+├── create_tables.sql     # Database schema
+├── templates/            # HTML templates (Jinja2)
+├── static/               # CSS, JS, and images
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
+
+
+
+🚀 Future Improvements
+
+Integration of donation tracking system
+
+Email notifications and verification
+
+Improved UI design using Bootstrap 5
+
+Enhanced security with password hashing and form validation
+
+API endpoints for mobile integration
+
+🧑‍💻 Author
+
+Hector Karisa Charo
+Developed as part of an academic project focusing on SDG 1 – No Poverty.
+
+“Using technology to bridge the gap between hope and help.”
 
 
